@@ -1,5 +1,4 @@
 
-   
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .voc-contenedor-galeria {
@@ -195,42 +194,33 @@
             cursor: pointer;
         }
         .v-p {
-            font-size: 16px;
-            line-height: 140%;
-        }
-        .v-d>*:not(.v-n-mrg), .v-d .paywall>*:not(.v-n-mrg) {
-            margin-bottom: 20px;
-        }
-        .v-d>.v-p, .v-d .paywall>.v-p {
             font-size: 18px;
             line-height: 28px;
             font-family: "IBM Plex Serif Regular", serif;
             margin-bottom: 20px;
             word-break: break-word;
         }
+
         @media (min-width: 699px) {
-            .v-d>.v-p, .v-d .paywall>.v-p {
+            .v-p {
                 font-size: 19px;
                 line-height: 29px;
             }
         }
         .v-mdl-ath__p {
-            font-size: 14px;
-            line-height: 16px;
-        }
-        .v-mdl-ath__p--6 {
             font-size: 13px;
             line-height: 16px;
             color: #6B6B6B;
             margin-top: 9px;
         }
+
         @media (min-width: 699px) {
-            .v-mdl-ath__p--6 {
+            .v-mdl-ath__p {
                 grid-column: 1;
             }
         }
         @media (min-width: 699px) {
-            .v-mdl-ath__img-c ~ .v-mdl-ath__p--1, .v-mdl-ath__img-c ~ .v-mdl-ath__p--5, .v-mdl-ath__img-c ~ .v-mdl-ath__p--6 {
+           .v-mdl-ath__p {
                 grid-column: 2;
             }
         }
@@ -386,6 +376,8 @@
         window.addEventListener('resize', activateGallery);
         activateGallery();
     </script>
+
+
 
 
 
